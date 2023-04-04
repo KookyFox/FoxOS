@@ -4,11 +4,9 @@
 
 
 <div class="wrapperflex">
-  <button class="cross"></button>
+  <button class="headerbutton cross" onclick="closeWindow(window)"></button>
   <div class="title">WELCOME TO KOOKIE'S SITE!</div>
-  <button class="expand"></button>
-
-
+  <button class="headerbutton expand"></button>
 </div>
 
 

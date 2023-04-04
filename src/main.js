@@ -5,14 +5,14 @@ import Header from './Header.svelte'
 
 
 
-const header = new Header({
+/*const header = new Header({
   target: document.getElementById('windowheader')
 })
 
 
 const header2 = new Header({
   target: document.getElementById('window2header')
-})
+})*/
 
 
 
@@ -30,8 +30,9 @@ export default taskbar;
 export default taskbar; */
 
 // Make the DIV element draggable:
-dragElement(document.getElementById("window"));
+dragElement(document.getElementById("window1"));
 dragElement(document.getElementById("window2"));
+dragElement(document.getElementById("window3"));
 
 
 function dragElement(elmnt) {
@@ -74,3 +75,6 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+function closeWindow(windw) {
+  document.getElementById(windw).style.display = "none";
+};
