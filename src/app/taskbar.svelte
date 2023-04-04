@@ -54,8 +54,8 @@
     background-color: lightpink;
     height: 25px;
     opacity: 100%;
-    border: 2px solid gray;
-    border-bottom:2px solid royalblue;
+    border: 1px solid rebeccapurple;
+    border-bottom:1px solid rebeccapurple;
     overflow: hidden;
     display: flex;
     align-items:center;
