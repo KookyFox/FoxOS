@@ -1,0 +1,68 @@
+
+body{
+  margin: 0px;
+}
+
+
+.window1{
+  z-index: 9;
+}
+
+.header1{
+  z-index:10;
+}
+
+.window2{
+  z-index: 11;
+}
+
+.header2{
+  z-index:12;
+}
+
+
+
+button:hover{
+  background-color:lightskyblue;
+}
+
+.desktop {
+  /*background-image: url('/trippysmol.png');*/
+  
+  background-image:url('src/assets/wallpaper.png');
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+
+ .window {
+  position: absolute;
+
+  background-color: #f1f1f1;
+
+  border:1px solid rebeccapurple;
+  box-shadow: 2px 2px rebeccapurple;
+  text-align: center;
+  color:#313;
+}
+
+.windowheader {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+  background-color: lightpink;
+  border-bottom: 1px solid royalblue;
+
+
+  color: black;
+}
+
+.windowcontent {
+  overflow-y:auto;
+  margin:2px;
+  max-width: 50vw;
+  max-height: 20vh;
+
+}
+
