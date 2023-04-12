@@ -31,6 +31,13 @@
 
 
 <style>
+  @font-face {
+  font-family: 'Sysfont';
+  src: url('src/assets/sysfont.woff2') format('woff2'),
+  url('src/assets/sysfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
   button {
@@ -39,7 +46,10 @@
     border: none;
     padding: 0px;
     padding-right:10px;
+    padding-left:10px;
     height:100%;
+    font-family:'Sysfont';
+    font-size: 18px;
   }
 
   button:hover{
@@ -61,6 +71,7 @@
     align-items:center;
     min-width:0;
     z-index:100;
+    font-family:'Sysfont';
   }
   .systemtray{
     

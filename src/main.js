@@ -2,7 +2,7 @@ import './app.css'
 import App from './App.svelte'
 import Taskbar from './app/taskbar.svelte'
 import Header from './Header.svelte'
-
+import Welcome from './app/welcome.svelte'
 
 
 /*const header = new Header({
@@ -16,6 +16,9 @@ const header2 = new Header({
 
 
 
+const window1content = new Welcome({
+  target: document.getElementById('window1content'),
+})
 
 const taskbar = new Taskbar({
   target: document.getElementById('taskbar'),
