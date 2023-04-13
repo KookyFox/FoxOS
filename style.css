@@ -53,7 +53,6 @@ button:hover{
 
  .window {
   position: absolute;
-
   background-color: aliceblue;
 
   border:1px solid rebeccapurple;
@@ -70,7 +69,7 @@ button:hover{
   border-bottom: 1px solid rebeccapurple;
   font-size: 18px;
   
-  color: rebeccapurple;
+  color: indigo;
 }
 
 .windowcontent {
@@ -101,6 +100,7 @@ button:hover{
     margin-left:10px;
     margin-right:10px;
     background-repeat:none;
+    border-radius:3px;
   }
 
   .cross{
@@ -132,5 +132,20 @@ button:hover{
   }
 
 
+/* OS-wide windows button style */
 
+  .windowButton{
+    border:5px double indigo;
+    background-color: lightgray;
+    font-family: 'Sysfont';
+    height: 35px;
+    border-radius: 5px;
+    color: indigo;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align:center;
+    vertical-align:middle;
+    min-width: 100px;
+
+  }
 
