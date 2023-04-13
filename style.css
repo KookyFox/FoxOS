@@ -54,7 +54,7 @@ button:hover{
  .window {
   position: absolute;
 
-  background-color: #f1f1f1;
+  background-color: aliceblue;
 
   border:1px solid rebeccapurple;
   box-shadow: 2px 2px rebeccapurple;

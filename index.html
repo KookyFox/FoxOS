@@ -26,7 +26,7 @@
       <div id="window2" class="window window2">
         <div id="window2header" class="header2 windowheader"><div class="wrapperflex">
            <button id="cross2" class="headerbutton cross" onclick="closeWindow('window2')"></button>
-           <div class="title">This is window 2!</div>
+           <div class="title">Music</div>
            <button class="headerbutton expand"></button>
         </div></div>
         <div class="windowcontent">
@@ -37,7 +37,7 @@
       <div id="window3" class="window window3">
         <div id="window3header" class="header3 windowheader"><div class="wrapperflex">
            <button class="headerbutton cross" onclick="closeWindow('window3')"></button>
-           <div class="title">This is window 3!</div>
+           <div class="title">Video Reel</div>
            <button class="headerbutton expand"></button>
         </div></div>
         <div class="windowcontent">
@@ -50,9 +50,9 @@
       
       <!--window block end-->
       <div class="desktopGrid">
-        <img id="art" src="src/assets/art.png" alt="">
-        <img style="grid-row:4 ; grid-column:10;" id="music" src="src/assets/music.png" alt="">
-        <img style="grid-row:6 ; grid-column:10;" id="trashcan" src="src/assets/trash.png" alt="">
+        <img style="grid-row:3 ; grid-column:10;" id="art" src="src/assets/art.png" alt="" ondblclick="openWindow('window1')">
+        <img style="grid-row:4 ; grid-column:10;" id="music" src="src/assets/music.png" alt="" ondblclick="openWindow('window2')">
+        <img style="grid-row:6 ; grid-column:10;" id="trashcan" src="src/assets/trash.png" alt="" ondblclick="openWindow('window3')">
       </div>
       <div id="app"></div>
     </div>

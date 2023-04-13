@@ -78,6 +78,4 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
-function closeWindow(windw) {
-  document.getElementById(windw).style.display = "none";
-};
+
