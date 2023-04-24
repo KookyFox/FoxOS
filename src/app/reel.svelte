@@ -9,22 +9,26 @@
         <source src="http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.webm" type="video/webm">
         <source src="http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.ogg" type="video/ogg">
         <!-- Flash fallback -->
-        <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4" width="1024" height="576">
-          <param name="movie" value="flash-player.swf?videoUrl=http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4">
-          <param name="allowfullscreen" value="true">
-          <param name="wmode" value="transparent">
-          <param name="flashvars" value="controlbar=over&amp;image=img/poster.jpg&amp;file=flash-player.swf?http://iandevlin.github.io/mdn/video-player/videoUrl=video/tears-of-steel-battle-clip-medium.mp4">
-          <img alt="Tears of Steel poster image" src="img/poster.jpg" title="No video playback possible, please download the video from the link below" width="1024" height="428">
-        </object>
+
+  
         <!-- Offer download -->
         <a href="http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4">Download MP4</a>
-    </video>
+      </video>
+      <h1><u>My Reel (Sound Edits & VA)</u></h1>
   <p>
     I'm a voice actress, sound designer, mixer, foley artist. A lot of the videos are mixed for binaural sound Headphones are recommended!
   </p>
+  <div class="buttonContainer">
+    <button class="windowButton" onclick="openWindow('windowAbout')">Contact Me!</button>
+    <button class="windowButton" onclick="openWindow('windowPrices')">Check My Prices</button>
+  </div>
 </div>
 
 <style>
+
+  .figure{
+    padding:20px;
+  }
 
   .figure video{
     width: 98%;
@@ -32,7 +36,11 @@
     border-radius: 5px;
   }
 
-
+  h1{
+    padding-top:2px;
+    margin-top:5px;
+    font-size:40px;
+  }
 
  
 </style>

@@ -4,6 +4,7 @@ import Taskbar from './app/taskbar.svelte'
 import Header from './Header.svelte'
 import Welcome from './app/welcome.svelte'
 import Videos from './app/reel.svelte'
+import Prices from './app/prices.svelte'
 
 
 /*const header = new Header({
@@ -14,6 +15,10 @@ import Videos from './app/reel.svelte'
 const header2 = new Header({
   target: document.getElementById('window2header')
 })*/
+const windowPricesContent = new Prices({
+  target: document.getElementById('windowPricesContent'),
+})
+
 
 const windowVideosContent = new Videos({
   target: document.getElementById('windowVideosContent'),
@@ -40,7 +45,7 @@ export default taskbar; */
 dragElement(document.getElementById("window1"));
 dragElement(document.getElementById("window2"));
 dragElement(document.getElementById("window3"));
-
+dragElement(document.getElementById("windowPrices"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
