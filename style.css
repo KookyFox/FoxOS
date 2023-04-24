@@ -1,4 +1,5 @@
 :root{
+  /*
 #2a1b8c
 #d35d86
 #b7adf6
@@ -9,7 +10,7 @@
 #5bcefa
 #f5a9b8
 #ffffff
-
+*/
 
 font-family: 'Sysfont';
 }
@@ -64,8 +65,8 @@ button:hover{
   position: absolute;
   background-color: aliceblue;
 
-  border:1px solid rebeccapurple;
-  box-shadow: 2px 2px rebeccapurple;
+  border:1px solid #2a1b8c;
+  box-shadow: 2px 2px #2a1b8c;
   text-align: center;
   color:#313;
 }
@@ -75,10 +76,10 @@ button:hover{
   cursor: move;
   z-index: 10;
   background-color: lightpink;
-  border-bottom: 1px solid rebeccapurple;
+  border-bottom: 1px solid #2a1b8c;
   font-size: 18px;
   
-  color: indigo;
+  color: #2a1b8c;
 }
 
 .windowcontent {
@@ -125,10 +126,24 @@ button:hover{
 
   /*desktop grid system for icons*/
 
+  .iconTitle{
+    color:#2a1b8c;
+    margin:0px;
+    text-align:center;
+    font-size: 16pt;
+  }
+
+  .desktopIcon{
+    display: block;
+    margin:auto;
+  }
+
   .desktopGrid{
-    height: 100%;
+    padding:30px;
+    padding-bottom:150px;
+    height: 95%;
     display: grid;
-    gap: 10px;
+    gap: 5px;
     grid-template-columns: repeat(10,1fr); 
     grid-template-rows: repeat(6,1fr); 
     grid-template-areas: 
@@ -144,7 +159,7 @@ button:hover{
 /* OS-wide windows button style */
 
   .windowButton{
-    border:5px double indigo;
+    border:5px double #2a1b8c;
     background-color: lightgray;
     font-family: 'Sysfont';
     height: 35px;

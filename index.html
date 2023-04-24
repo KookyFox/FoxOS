@@ -40,9 +40,7 @@
            <div class="title">Video Reel</div>
            <button class="headerbutton expand"></button>
         </div></div>
-        <div class="windowcontent">
-          wincont
-        </div>
+        <div class="windowcontent" id="windowVideosContent"></div>
       </div>
 
 
@@ -50,9 +48,14 @@
       
       <!--window block end-->
       <div class="desktopGrid">
-        <img style="grid-row:3 ; grid-column:10;" id="art" src="src/assets/art.png" alt="" ondblclick="openWindow('window1')">
-        <img style="grid-row:4 ; grid-column:10;" id="music" src="src/assets/music.png" alt="" ondblclick="openWindow('window2')">
-        <img style="grid-row:6 ; grid-column:10;" id="trashcan" src="src/assets/trash.png" alt="" ondblclick="openWindow('window3')">
+        <div style="grid-row:1 ; grid-column:10;"><img class="desktopIcon" id="commissions" src="src/assets/commissions.png" alt="" ondblclick="openWindow('windowCommissions')"><p class="iconTitle">Commissions</p></div>
+        <div style="grid-row:5 ; grid-column:10;"><img class="desktopIcon" id="me" src="src/assets/me.png" alt="" ondblclick="openWindow('windowMe')"><p class="iconTitle">About Me</p></div>
+        <div style="grid-row:2 ; grid-column:10;"><img class="desktopIcon" id="videos" src="src/assets/video.png" alt="" ondblclick="openWindow('window3')"><p class="iconTitle">Demo Reel</p></div>
+        <div style="grid-row:3 ; grid-column:10;"><img class="desktopIcon" id="art" src="src/assets/art.png" alt="" ondblclick="openWindow('windowArt')"><p class="iconTitle">Artwork</p></div>
+        <div style="grid-row:4 ; grid-column:10;"><img class="desktopIcon" id="music" src="src/assets/music.png" alt="" ondblclick="openWindow('windowMusic')"><p class="iconTitle">Music</p></div>
+        <div style="grid-row:6 ; grid-column:10;"><img class="desktopIcon" id="trashcan" src="src/assets/trash.png" alt="" ondblclick="openWindow('window1')"><p class="iconTitle">Trash</p></div>
+
+        
       </div>
       <div id="app"></div>
     </div>

@@ -3,6 +3,7 @@ import App from './App.svelte'
 import Taskbar from './app/taskbar.svelte'
 import Header from './Header.svelte'
 import Welcome from './app/welcome.svelte'
+import Videos from './app/reel.svelte'
 
 
 /*const header = new Header({
@@ -14,6 +15,9 @@ const header2 = new Header({
   target: document.getElementById('window2header')
 })*/
 
+const windowVideosContent = new Videos({
+  target: document.getElementById('windowVideosContent'),
+})
 
 
 const window1content = new Welcome({
